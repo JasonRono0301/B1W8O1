@@ -19,14 +19,15 @@ body{
 .headerbannerImg{
     grid-row: 1;
     grid-column: 1;
-    height: 120px;
+    height: 100px;
     width: 1100px;
 }
 
 .logo{
     grid-row: 1;
     grid-column: 1;
-    padding-top: 10px;
+    padding-top: 5px;
+    padding-left: 20px;
     width: 300px;
 }
 
@@ -34,7 +35,7 @@ body{
     grid-row: 1;
     grid-column: 2 / 5;
     margin-left: 140px;
-    margin-top: 50px;
+    margin-top: 40px;
     font-size: 20px;
     line-height: 20px;
 }
@@ -56,20 +57,20 @@ ul li a{
 .bannerBG{
     grid-row: 1;
     grid-column: 1;
-    margin-top: 110px;
+    margin-top: 100px;
     width: 1100px;
-    height: 600px;
+    height: 470px;
 }
 
 .bannerLogo{
     grid-row: 2;
     grid-column: 1;
-    margin: 40px;
-    height: 450px;
-    width: 700px;
+    margin: 30px;
+    height: 350px;
+    width: 690px;
 }
 
-.Middletekst{
+.Hoofdtekst{
     grid-row: 2;
     grid-column: 3 / 5;
     margin-top: 50px;
@@ -78,10 +79,12 @@ ul li a{
 
 p:nth-of-type(1){
     font-size: 26px;
+    line-height: 30px;
     color: white;
 }
 
-p:nth-of-type(2){
+.miniTekst p{
     font-size: 14px;
+    line-height: 20px;
     color: white;
 }
