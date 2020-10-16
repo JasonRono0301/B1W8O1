@@ -12,7 +12,7 @@ body{
 
 .container{
     display: grid;
-    grid-template-rows: 100px 200px 200px 100px;
+    grid-template-rows: 100px 200px 200px 400px;
     grid-template-columns: 400px 200px 200px 400px;
     grid-gap: 5px;
 }
@@ -82,14 +82,36 @@ a{
 .slides{
     grid-row: 4;
     grid-column: 1 / span 4;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
-ul{
+.slides ul{
     list-style-type: none;
 }
 
-li{
+.slides li{
     display: inline;
     padding-left: 30px;
 }
+
+.slidestekst{
+    grid-row: 4;
+    grid-column: 1 / span 4;
+    margin-top: 200px;
+}
+
+.slidestekst ul{
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+.slidestekst li{
+    display: inline;
+    font-size: 20px;
+    line-height: 22px;
+    margin-right: 135px;
+}
+
+
+
+
